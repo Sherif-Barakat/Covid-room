@@ -37,4 +37,9 @@ Route::get('/add_doctor_view',[AdminController::Class,'addview']);
 Route::post('/upload_doctor',[AdminController::Class,'upload']);
 Route::post('/appointment',[HomeController::Class,'appointment']);
 Route::get('/myappointment',[HomeController::Class,'myappointment']);
+Route::get('/cancel_appoint/{id}',[HomeController::Class,'cancel_appoint']);
+Route::get('/show_appoint',[AdminController::Class,'show_appoint']);
+Route::get('/approve_appoint/{id}',[AdminController::Class,'approve_appoint']);
+Route::get('/deny_appoint/{id}',[AdminController::Class,'deny_appoint']);
+
 

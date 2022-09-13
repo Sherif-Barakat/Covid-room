@@ -90,7 +90,8 @@
               <a class="nav-link" href="{{url('myappointment')}}">My appointments</a>
             </li>
             <x-app-layout>
-              
+            <div class="container-fluid page-body-wrapper">
+            </div>
             </x-app-layout>
 
             @else
